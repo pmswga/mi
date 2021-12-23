@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1640286713 source:c:\users\pmswg\desktop\projects\cpp\mi\src\main.cpp
+	<iostream>
+	<string>
+	"env.h"
+	"lexer.h"
+
+1640283772 source:c:\users\pmswg\desktop\projects\cpp\mi\src\env.cpp
+	"env.h"
+
+1640283783 c:\users\pmswg\desktop\projects\cpp\mi\src\env.h
+	<vector>
+	<string>
+	<map>
+
+1640284000 source:c:\users\pmswg\desktop\projects\cpp\mi\src\types\type.cpp
+	"type.h"
+
+1640284012 c:\users\pmswg\desktop\projects\cpp\mi\src\types\type.h
+	<string>
+
+1640284536 source:c:\users\pmswg\desktop\projects\cpp\mi\src\types\rational_type.cpp
+	"rational_type.h"
+
+1640284507 c:\users\pmswg\desktop\projects\cpp\mi\src\types\rational_type.h
+	"type.h"
+
+1640287067 source:c:\users\pmswg\desktop\projects\cpp\mi\src\lexer.cpp
+	"lexer.h"
+
+1640287066 c:\users\pmswg\desktop\projects\cpp\mi\src\lexer.h
+	<string>
+	"types/rational_type.h"
+	<iostream>
+	<ctype.h>
+

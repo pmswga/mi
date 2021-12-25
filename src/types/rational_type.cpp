@@ -1,11 +1,17 @@
 #include "rational_type.h"
 
-RationalType::RationalType(string var_name, double value) : Type(var_name), value(value)
+RationalType::RationalType(string var_name, double var_value)
+    : VarType(var_name), var_value(var_value)
 {
 
 }
 
-void RationalType::setValue(double value)
+double RationalType::value()
 {
-    this->value = value;
+    return this->var_value;
+}
+
+void RationalType::setValue(double var_value)
+{
+    this->var_value = var_value;
 }

@@ -1,17 +1,25 @@
 # depslib dependency file v1.0
-1640286713 source:c:\users\pmswg\desktop\projects\cpp\mi\src\main.cpp
+1640417233 source:c:\users\pmswg\desktop\projects\cpp\mi\src\main.cpp
 	<iostream>
 	<string>
 	"env.h"
 	"lexer.h"
+	"parser.h"
+	<stdlib.h>
+	<exception>
+	<fstream>
 
-1640283772 source:c:\users\pmswg\desktop\projects\cpp\mi\src\env.cpp
+1640414688 source:c:\users\pmswg\desktop\projects\cpp\mi\src\env.cpp
 	"env.h"
 
-1640283783 c:\users\pmswg\desktop\projects\cpp\mi\src\env.h
+1640414670 c:\users\pmswg\desktop\projects\cpp\mi\src\env.h
+	<iostream>
 	<vector>
 	<string>
 	<map>
+	"types/rational_type.h"
+	"types/vector_type.h"
+	"parser.h"
 
 1640284000 source:c:\users\pmswg\desktop\projects\cpp\mi\src\types\type.cpp
 	"type.h"
@@ -19,18 +27,55 @@
 1640284012 c:\users\pmswg\desktop\projects\cpp\mi\src\types\type.h
 	<string>
 
-1640284536 source:c:\users\pmswg\desktop\projects\cpp\mi\src\types\rational_type.cpp
+1640402892 source:c:\users\pmswg\desktop\projects\cpp\mi\src\types\rational_type.cpp
 	"rational_type.h"
 
-1640284507 c:\users\pmswg\desktop\projects\cpp\mi\src\types\rational_type.h
-	"type.h"
+1640402897 c:\users\pmswg\desktop\projects\cpp\mi\src\types\rational_type.h
+	"var_type.h"
 
-1640287067 source:c:\users\pmswg\desktop\projects\cpp\mi\src\lexer.cpp
+1640408775 source:c:\users\pmswg\desktop\projects\cpp\mi\src\lexer.cpp
 	"lexer.h"
 
-1640287066 c:\users\pmswg\desktop\projects\cpp\mi\src\lexer.h
+1640408538 c:\users\pmswg\desktop\projects\cpp\mi\src\lexer.h
 	<string>
-	"types/rational_type.h"
 	<iostream>
 	<ctype.h>
+	<vector>
+	<regex>
+	"types/rational_type.h"
+	"token.h"
+
+1640405366 source:c:\users\pmswg\desktop\projects\cpp\mi\src\token.cpp
+	"token.h"
+
+1640405333 c:\users\pmswg\desktop\projects\cpp\mi\src\token.h
+	<string>
+	<vector>
+
+1640403163 c:\users\pmswg\desktop\projects\cpp\mi\src\types\var_type.h
+	<string>
+
+1640403168 source:c:\users\pmswg\desktop\projects\cpp\mi\src\types\var_type.cpp
+	"var_type.h"
+
+1640412933 source:c:\users\pmswg\desktop\projects\cpp\mi\src\parser.cpp
+	"parser.h"
+
+1640415922 c:\users\pmswg\desktop\projects\cpp\mi\src\parser.h
+	<iostream>
+	"node.h"
+
+1640413436 c:\users\pmswg\desktop\projects\cpp\mi\src\types\vector_type.h
+	<vector>
+	"var_type.h"
+
+1640413430 source:c:\users\pmswg\desktop\projects\cpp\mi\src\types\vector_type.cpp
+	"vector_type.h"
+
+1640415940 c:\users\pmswg\desktop\projects\cpp\mi\src\node.h
+	<string>
+	"token.h"
+
+1640415891 source:c:\users\pmswg\desktop\projects\cpp\mi\src\node.cpp
+	"node.h"
 

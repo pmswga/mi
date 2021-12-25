@@ -1,16 +1,17 @@
 #ifndef RATIONAL_TYPE_H
 #define RATIONAL_TYPE_H
 
-#include "type.h"
+#include "var_type.h"
 
-class RationalType : public Type
+class RationalType : public VarType
 {
-    double value;
+    double var_value;
 
 public:
-    RationalType(string var_name, double value);
+    RationalType(string var_name, double var_value);
 
-    void setValue(double value);
+    double value();
+    void setValue(double var_value);
 
 };
 
